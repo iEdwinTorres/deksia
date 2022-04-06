@@ -13,7 +13,7 @@ function Benefits() {
       <div className='container'>
         <div className='container-fluid' id='yellowBar2' />
 
-        <h1 id='custom_heading'>
+        <h1 id='benefits_heading'>
           Benefits of Buying Natural
           <br />
           Gas through Novec

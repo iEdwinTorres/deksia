@@ -44,8 +44,8 @@ function StyleA() {
           </h3>
         </div>
 
-        <div className='col-6' id='style_link'>
-          <a href='https://www.google.com/search?q=Text+Link+Treatment'>
+        <div className='col-6'>
+          <a id='style_link' href='https://www.google.com/search?q=Text+Link+Treatment'>
             Text Link Treatment &gt;
           </a>
         </div>
