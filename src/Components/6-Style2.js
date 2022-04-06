@@ -3,7 +3,7 @@ import FamilyImage from "../Assets/img-4.png";
 function StyleB() {
   return (
     <div className='StyleB'>
-      <img src={FamilyImage} />
+      <img className='family' src={FamilyImage} />
 
       <h2>H2. Headline 2 Styling & Spacing</h2>
 

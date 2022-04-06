@@ -55,7 +55,7 @@ function Services() {
       <body>Ut enim ad minim veniam, quis nostrud exercitation.</body>
       <button>CTA</button>
 
-      <img src={MapImage} />
+      <img className='map' src={MapImage} />
     </div>
   );
 }

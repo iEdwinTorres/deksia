@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Items({ items, index }) {
+function Items({ items }) {
   return (
     <div className='items'>
       <strong>{items.title}</strong>
