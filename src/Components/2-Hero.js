@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div>
       <div className='hero'>
-        <div className='container ' id='hero_text'>
+        <div className='container ' id='hero_rows'>
           <div className='row'>
             <h1 className='col-4' id='NOVA_h1'>
               Natural Gas
@@ -19,14 +19,14 @@ function Hero() {
             <h3 className='col-4' id='NOVA_h3'>Super neat subhead</h3>
           </div>
           <div className='row'>
-            <p className='col-5' id='NOVA_Reg'>
+            <p className='col-5' id='hero_p'>
               NOVEC Energy Solutions is pleased to offer natural gas customers
               in Pennsylvania, Maryland, Virginia, District of Columbia and
               Kentucky the option to enroll in our PriceOne Plan.
             </p>
           </div>
           <div>
-            <button id='Deksia_Btn'>Sign up</button>
+            <button id='signup_btn'>Sign up</button>
           </div>
         </div>
       </div>

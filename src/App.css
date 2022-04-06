@@ -1,4 +1,4 @@
-#Deksia_Btn {
+#signup_btn {
   font-family: proxima-nova, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -12,7 +12,24 @@
   padding-bottom: 3px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
+}
+
+#cta_btn {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: none;
+  background-color: #1654A8;
+  color: #B8DFF6;
+  float: left;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 1.3vw;
 }
 
 #NOVA_h1 {
@@ -60,13 +77,19 @@
   font-size: 1.23vw;
 }
 
-.yellowBar {
+.yellowBar1 {
   background-color: #FAE613;
   height: .75vw;
 }
 
+#yellowBar2 {
+  background-color: #FAE613;
+  height: .2vw;
+  width: 90%;
+}
+
 .logo {
-  width: fit-content;
+  width: 28%;
 }
 
 .search {
@@ -116,9 +139,18 @@
   height: 34.75vw;
 }
 
-#hero_text {
-  padding-left: 10%;
+#hero_rows {
+  padding-left: 6%;
   padding-top: 7%;
+}
+
+#hero_p {
+  padding-right: 5%;
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
 }
 
 .options {
@@ -154,16 +186,79 @@
   margin-left: 0%;
 }
 
+#last_row {
+  padding-bottom: 5%;
+}
+
+#custom_heading {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1654A8;
+  font-size: 2.5vw;
+  padding-top: 5%;
+}
+
+#benefits_12 {
+  padding-bottom: 2%;
+  padding-top: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#benefits_34{
+  padding-bottom: 7%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#benefit_container_b {
+  background-color: #B8DFF6;
+  border-radius: 8px;
+  height: 14vw;
+  width: 39.5vw;
+}
+
+#benefit_container_g {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  height: 14vw;
+  width: 39.5vw;
+}
+
+#benefit_icon {
+  margin-top: 100%;
+  padding-left: 30%;
+  height: 4.2vw;
+}
+
+.benefit_title {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+  color: #1654A8;
+  padding-top: 7%;
+}
+
+#benefit_text {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-right: 10%;
+}
 
 
 
-
-
-
-.Benefits-Banner {
-  background: url(./Assets/img-7.png);
-  background-size: 100vw;
-  height: 30.8vw;
+#benefits_banner {
+  height: 30.75vw;
+  padding: 0%;
 }
 
 .map{
