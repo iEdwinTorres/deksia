@@ -5,18 +5,18 @@ import svg4 from "../Assets/4.svg";
 
 function Hero() {
   return (
-    <div>
+    <div className='container-fixed'>
       <div className='hero'>
         <div className='container ' id='hero_rows'>
           <div className='row'>
-            <h1 className='col-4' id='NOVA_h1'>
+            <h1 className='col-4' id='hero_h1'>
               Natural Gas
               <br />
               Services
             </h1>
           </div>
           <div className='row'>
-            <h3 className='col-4' id='NOVA_h3'>Super neat subhead</h3>
+            <h3 className='col-4' id='hero_h3'>Super neat subhead</h3>
           </div>
           <div className='row'>
             <p className='col-5' id='hero_p'>
@@ -26,7 +26,7 @@ function Hero() {
             </p>
           </div>
           <div>
-            <button id='signup_btn'>Sign up</button>
+            <button id='hero_signup'>Sign up</button>
           </div>
         </div>
       </div>

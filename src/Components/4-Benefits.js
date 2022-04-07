@@ -3,13 +3,8 @@ import RightImage from "../Assets/img-3.png";
 import svg5 from "../Assets/5.svg";
 
 function Benefits() {
-  const items = {
-    icon: { svg5 },
-    title: "Benefit #4",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
-  };
   return (
-    <div className='Benefits'>
+    <div className='container-fixed'>
       <div className='container'>
         <div className='container-fluid' id='yellowBar2' />
 
@@ -23,10 +18,8 @@ function Benefits() {
           <div className='row justify-content-between' id='benefits_12'>
             <div className='col-6' id='benefit_container_g'>
               <div className='row'>
-                <div className='col-2'>
-                  <div className='col'>
+                <div className='col-2 align-self-center'>
                     <img id='benefit_icon' src={svg5} />
-                  </div>
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -43,10 +36,8 @@ function Benefits() {
             </div>
             <div className='col-6' id='benefit_container_b'>
               <div className='row'>
-                <div className='col-2'>
-                  <div className='col'>
+                <div className='col-2 align-self-center'>
                     <img id='benefit_icon' src={svg5} />
-                  </div>
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -65,10 +56,8 @@ function Benefits() {
           <div className='row justify-content-between' id='benefits_34'>
             <div className='col-6' id='benefit_container_b'>
               <div className='row'>
-                <div className='col-2'>
-                  <div className='col'>
+                <div className='col-2 align-self-center'>
                     <img id='benefit_icon' src={svg5} />
-                  </div>
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -85,10 +74,8 @@ function Benefits() {
             </div>
             <div className='col-6' id='benefit_container_g'>
               <div className='row'>
-                <div className='col-2'>
-                  <div className='col'>
+                <div className='col-2 align-self-center'>
                     <img id='benefit_icon' src={svg5} />
-                  </div>
                 </div>
                 <div className='col'>
                   <div className='row'>

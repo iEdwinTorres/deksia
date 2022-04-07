@@ -1,12 +1,12 @@
-function StyleA() {
+function Style1() {
   return (
-    <div className='container' id='style_a'>
+    <div className='container-fixed' id='style_1'>
       <div className='row'>
         <div className='col-6' id='col_left'>
-          <h1 id='NOVA_h1'>H1. Headline 1 styling and spacing</h1>
+          <h1 id='style1_h1'>H1. Headline 1 styling and spacing</h1>
         </div>
-        <div className='col-6' id='NOVA_Reg'>
-          <p>
+        <div className='col-6' id='style1_Reg'>
+          <p id='style1_reg'>
             <strong>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
@@ -20,13 +20,13 @@ function StyleA() {
 
       <div className='row'>
         <div className='col-6' id='col_left'>
-          <h2 id='NOVA_h2'>
+          <h2 id='style1_h2'>
             H2. Headline 2 Styling
             <br />& Spacing
           </h2>
         </div>
-        <div className='col-6' id='NOVA_Reg'>
-          <ul>
+        <div className='col-6' id='style1_reg'>
+          <ul id='style1_ul'>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
             <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -37,7 +37,7 @@ function StyleA() {
 
       <div className='row' id='last_row'>
         <div className='col-6' id='col_left'>
-          <h3 id='NOVA_h3'>
+          <h3 id='style1_h3'>
             H3. Subhead Styling & Spacing for
             <br />
             this website
@@ -45,7 +45,7 @@ function StyleA() {
         </div>
 
         <div className='col-6'>
-          <a id='style_link' href='https://www.google.com/search?q=Text+Link+Treatment'>
+          <a id='style1_link' href='https://www.google.com/search?q=Text+Link+Treatment'>
             Text Link Treatment &gt;
           </a>
         </div>
@@ -54,4 +54,4 @@ function StyleA() {
   );
 }
 
-export default StyleA;
+export default Style1;

@@ -3,7 +3,7 @@ import svg1 from "../Assets/1.svg";
 
 function Services() {
   return (
-    <div className='Services'>
+    <div className='container-fixed'>
       <h1 id='services_heading'>Natural Gas Services Area</h1>
 
       <div className='container' id='services_container'>
@@ -20,59 +20,55 @@ function Services() {
                 commodo consequat. exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat.
               </body>
+            </div>
 
+            <div className='row'>
               <h3 id='services_h3'>Other Services</h3>
+            </div>
 
+            <div className='row'>
               <div className='container'>
-                <div className='row justify-content-between' id='services_12'>
-                  <div className='col' id='services_btns_13'>
-                    <div className='row'>
-                      <div className='col-auto' id='service_svg'>
-                        <img src={svg1} />
+                <div className='row justify-content-start' id='service_btns_12'>
+                  <div className='col-6'>
+                    <div className='row' id='service_btn'>
+                      <div className='col-5 align-self-center text-end'>
+                        <img id='other_svg' src={svg1} />
                       </div>
-                      <div className='col' id='services_btns_text'>
-                        Other
-                        <br />
-                        Service
+                      <div className='col-6 text-start' id='other_text'>
+                        Other Service
                       </div>
                     </div>
                   </div>
-                  <div className='col' id='services_btns_24'>
-                    <div className='row'>
-                      <div className='col-auto' id='service_svg'>
-                        <img src={svg1} />
+
+                  <div className='col-6'>
+                    <div className='row' id='service_btn'>
+                      <div className='col-5 align-self-center text-end'>
+                        <img id='other_svg' src={svg1} />
                       </div>
-                      <div className='col' id='services_btns_text'>
-                        Other
-                        <br />
-                        Service
+                      <div className='col-6 text-start' id='other_text'>
+                        Other Service
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div className='row justify-content-between' id='services_34'>
-                  <div className='col' id='services_btns_13'>
-                    <div className='row'>
-                      <div className='col-auto' id='service_svg'>
-                        <img src={svg1} />
+                <div className='row justify-content-start' id='service_btns_34'>
+                  <div className='col-6'>
+                    <div className='row' id='service_btn'>
+                      <div className='col-5 align-self-center text-end'>
+                        <img id='other_svg' src={svg1} />
                       </div>
-                      <div className='col' id='services_btns_text'>
-                        Other
-                        <br />
-                        Service
+                      <div className='col-6 text-start' id='other_text'>
+                        Other Service
                       </div>
                     </div>
                   </div>
-                  <div className='col' id='services_btns_24'>
-                    <div className='row'>
-                      <div className='col-auto' id='service_svg'>
-                        <img src={svg1} />
+                  <div className='col-6'>
+                    <div className='row' id='service_btn'>
+                      <div className='col-5 align-self-center text-end'>
+                        <img id='other_svg' src={svg1} />
                       </div>
-                      <div className='col' id='services_btns_text'>
-                        Other
-                        <br />
-                        Service
+                      <div className='col-6 text-start' id='other_text'>
+                        Other Service
                       </div>
                     </div>
                   </div>

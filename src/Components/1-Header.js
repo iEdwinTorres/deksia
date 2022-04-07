@@ -3,7 +3,7 @@ import SearchImage from "../Assets/icon-search.png";
 
 function Header() {
   return (
-    <div>
+    <div className='container-fixed'>
       <div className='container-fluid yellowBar1' />
 
       <div className='container'>

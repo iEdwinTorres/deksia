@@ -1,6 +1,5 @@
 import './App.css';
-import Header from "./Components/0-Header";
-import NavBar from "./Components/1-NavBar";
+import Header from "./Components/1-Header";
 import Hero from "./Components/2-Hero";
 import Style1 from "./Components/3-Style1";
 import Benefits from "./Components/4-Benefits";
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <NavBar/>
       <Hero/>
       <Style1/>
       <Benefits/>

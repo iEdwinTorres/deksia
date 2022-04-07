@@ -1,38 +1,6 @@
-#NOVA_h1 {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  text-align: left;
-  color: #1654A8;
-  font-size: 2.5vw
-}
-
-#NOVA_h2 {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  text-align: left;
-  color: #1654A8;
-  font-size: 1.9vw
-}
-
-#NOVA_h3 {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 1.3vw;
-}
-
-#NOVA_Reg {
-  font-family: proxima-nova, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  text-align: left;
-  font-size: 1.23vw;
+.container-fixed {
+  margin: 0 auto;
+  max-width: 2560px;
 }
 
 /* Header Section */
@@ -98,6 +66,25 @@
   padding-top: 7%;
 }
 
+#hero_h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 2.5vw
+}
+
+#hero_h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+}
+
 #hero_p {
   padding-right: 5%;
   font-family: proxima-nova, sans-serif;
@@ -107,7 +94,7 @@
   font-size: 1.23vw;
 }
 
-#signup_btn {
+#hero_signup {
   font-family: proxima-nova, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -146,8 +133,45 @@
   padding-left: 0%;
 }
 
-/* Styling A Section */
-#style_a {
+/* Styling 1 Section */
+#style1_h1 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 2.5vw
+}
+
+#style1_h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 1.9vw
+}
+
+#style1_h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+}
+
+#style1_reg {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+}
+
+#style_1 {
   padding-top: 5vw;
   padding-left: 0%;
   padding-right: 0%;
@@ -162,13 +186,21 @@
   padding-bottom: 5%;
 }
 
-#style_link {
+#style1_link {
   font-family: proxima-nova, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-align: left;
   font-size: 1.23vw;
   color: #1654A8;
+}
+
+#style1_ul {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
 }
 
 /* Benefits Section */
@@ -217,7 +249,6 @@
 }
 
 #benefit_icon {
-  margin-top: 100%;
   padding-left: 30%;
   height: 4.2vw;
 }
@@ -288,48 +319,41 @@ padding-right: 7%;
   padding-bottom: 2%;
 }
 
-#service_svg {
-  margin-top: 7%;
-  padding-left: 10%;
+#service_btn {
+  border-radius: 8px;
+  background-color: #B8DFF6;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-right: 1%;
 }
 
-#services_btns_text {
+#service_btns_12 {
+  padding-bottom: 3%;
+  padding-top: 5%;
+  margin-left: 0%;
+  margin-right: 4%;
+}
+
+#service_btns_34 {
+  padding-bottom: 7%;
+  margin-left: 0%;
+  margin-right: 4%;
+}
+
+#other_svg {
+  padding-right: 1%;
+  height: 2.5vw;
+}
+
+#other_text {
   font-family: proxima-nova, sans-serif;
   font-weight: 600;
   font-style: normal;
-  text-transform: uppercase;
   text-align: left;
-  font-size: 1.23vw;
   color: #1654A8;
-  padding-top: 7%;
-  padding-left: 0%;
-  padding-right: 0%;
-  line-height: 1;
-
-}
-
-#services_12 {
-  padding-bottom: 4%;
-  margin-left: 4%;
-  margin-right: 13%;
-}
-
-#services_34 {
-  padding-bottom: 7%;
-  margin-left: 4%;
-  margin-right: 13%;
-}
-
-#services_btns_13 {
-  background-color: #B8DFF6;
-  border-radius: 8px;
-  height: 4vw;
-}
-#services_btns_24 {
-  background-color: #B8DFF6;
-  border-radius: 8px;
-  height: 4vw;
-  margin-left: 5%;
+  text-transform: uppercase;
+  padding: 0%;
+  font-size: 1.23vw;
 }
 
 #cta_btn {
@@ -355,16 +379,120 @@ padding-right: 7%;
   width: 100%;
 }
 
-/* Styling B Section */
+/* Styling 2 Section */
+
+#style2_container{
+background-color: #f2f2f2;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 9.2%;
+padding-right: 12%;
+}
+
 .family{
-  width: 100%;
+  width: 103.5%;
+}
+
+#family_col{
+  padding: 0%;
+}
+
+#right_col{
+  padding-left: 5.7%;
+}
+
+#style2_heading {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 1.9vw;
+  padding-bottom: 3%;
+}
+
+#style2_reg {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-bottom: 3%;
+}
+
+#style2_ul {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-bottom: 3%;
+}
+
+#style2_signup {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: none;
+  background-color: #1654A8;
+  color: #B8DFF6;
+  float: left;
+  margin-top: 2%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.3vw;
 }
 
 /* Rates Section */
 
 /* Testimonial Section */
-.customer{
-  width: 100%;
+#review_bkgd{
+  background-color: #B8DFF6;
+}
+
+#svg_lf{
+  padding: 0%;
+  padding-left: 5%;
+  height: 7vw;
+}
+#svg_ri{
+  padding: 0%;
+  padding-right: 5%;
+  height: 7vw;
+}
+
+#customer{
+  width: 80%;
+  padding: 0%;
+}
+
+#review_text {
+  padding: 0% 2%;
+}
+
+#review_p{
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.9vw;
+  color: #1654A8;
+  padding-top: 10%;
+}
+
+#customer_details {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+  padding-bottom: 10%;
 }
 
 .Testimonial-Banner {
