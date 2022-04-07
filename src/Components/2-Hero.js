@@ -35,7 +35,7 @@ function Hero() {
         <div className='row justify-content-center'>
           <div className='col'>
             <div className='row'>
-              <img className='col' id='svg' src={svg1} />
+              <img className='col' id='svg' src={svg1}  alt=''/>
               <div className='col-9' id='opt_text'>
                 Billing
                 <br />& Payment
@@ -44,7 +44,7 @@ function Hero() {
           </div>
           <div className='col'>
             <div className='row'>
-              <img className='col' id='svg' src={svg2} />
+              <img className='col' id='svg' src={svg2}  alt=''/>
               <div className='col-9' id='opt_text'>
                 Report
                 <br />a problem
@@ -53,7 +53,7 @@ function Hero() {
           </div>
           <div className='col'>
             <div className='row'>
-              <img className='col' id='svg' src={svg3} />
+              <img className='col' id='svg' src={svg3}  alt=''/>
               <div className='col-9' id='opt_text'>
                 Moving or
                 <br />
@@ -63,7 +63,7 @@ function Hero() {
           </div>
           <div className='col'>
             <div className='row'>
-              <img className='col' id='svg' src={svg4} />
+              <img className='col' id='svg' src={svg4}  alt=''/>
               <div className='col-9' id='opt_text'>
                 Switching Service
                 <br /> Providers

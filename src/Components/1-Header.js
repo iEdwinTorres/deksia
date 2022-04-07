@@ -9,11 +9,11 @@ function Header() {
       <div className='container'>
         <div className='row'>
           <div className='col header_left'>
-            <img className='logo' src={LogoImage} />
+            <img className='logo' src={LogoImage}  alt=''/>
           </div>
           <div className='col header_right'>
             <div className='row justify-content-end search'>
-              <img className='col-1' src={SearchImage} />
+              <img className='col-1' src={SearchImage}  alt=''/>
             </div>
             <div className='row justify-content-end menu'>
               <div className='col'>Menu</div>

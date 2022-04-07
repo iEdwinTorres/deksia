@@ -19,7 +19,7 @@ function Benefits() {
             <div className='col-6' id='benefit_container_g'>
               <div className='row'>
                 <div className='col-2 align-self-center'>
-                    <img id='benefit_icon' src={svg5} />
+                  <img id='benefit_icon' src={svg5} alt='' />
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -37,7 +37,7 @@ function Benefits() {
             <div className='col-6' id='benefit_container_b'>
               <div className='row'>
                 <div className='col-2 align-self-center'>
-                    <img id='benefit_icon' src={svg5} />
+                  <img id='benefit_icon' src={svg5} alt='' />
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -57,7 +57,7 @@ function Benefits() {
             <div className='col-6' id='benefit_container_b'>
               <div className='row'>
                 <div className='col-2 align-self-center'>
-                    <img id='benefit_icon' src={svg5} />
+                  <img id='benefit_icon' src={svg5} alt='' />
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -75,7 +75,7 @@ function Benefits() {
             <div className='col-6' id='benefit_container_g'>
               <div className='row'>
                 <div className='col-2 align-self-center'>
-                    <img id='benefit_icon' src={svg5} />
+                  <img id='benefit_icon' src={svg5} alt='' />
                 </div>
                 <div className='col'>
                   <div className='row'>
@@ -97,10 +97,10 @@ function Benefits() {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col-6' id='benefits_banner'>
-            <img src={LeftImage} id='benefits_banner' />
+            <img src={LeftImage} id='benefits_banner' alt='' />
           </div>
           <div className='col-6' id='benefits_banner'>
-            <img src={RightImage} id='benefits_banner' />
+            <img src={RightImage} id='benefits_banner' alt='' />
           </div>
         </div>
       </div>

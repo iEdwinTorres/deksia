@@ -32,7 +32,7 @@ function Services() {
                   <div className='col-6'>
                     <div className='row' id='service_btn'>
                       <div className='col-5 align-self-center text-end'>
-                        <img id='other_svg' src={svg1} />
+                        <img id='other_svg' src={svg1} alt='' />
                       </div>
                       <div className='col-6 text-start' id='other_text'>
                         Other Service
@@ -43,7 +43,7 @@ function Services() {
                   <div className='col-6'>
                     <div className='row' id='service_btn'>
                       <div className='col-5 align-self-center text-end'>
-                        <img id='other_svg' src={svg1} />
+                        <img id='other_svg' src={svg1} alt='' />
                       </div>
                       <div className='col-6 text-start' id='other_text'>
                         Other Service
@@ -55,7 +55,7 @@ function Services() {
                   <div className='col-6'>
                     <div className='row' id='service_btn'>
                       <div className='col-5 align-self-center text-end'>
-                        <img id='other_svg' src={svg1} />
+                        <img id='other_svg' src={svg1} alt='' />
                       </div>
                       <div className='col-6 text-start' id='other_text'>
                         Other Service
@@ -65,7 +65,7 @@ function Services() {
                   <div className='col-6'>
                     <div className='row' id='service_btn'>
                       <div className='col-5 align-self-center text-end'>
-                        <img id='other_svg' src={svg1} />
+                        <img id='other_svg' src={svg1} alt='' />
                       </div>
                       <div className='col-6 text-start' id='other_text'>
                         Other Service
@@ -86,7 +86,7 @@ function Services() {
             </div>
           </div>
           <div className='col-7'>
-            <img className='map' src={MapImage} />
+            <img className='map' src={MapImage} alt='' />
           </div>
         </div>
       </div>

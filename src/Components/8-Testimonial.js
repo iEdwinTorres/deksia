@@ -9,10 +9,10 @@ function Testimonial() {
       <div className='container-fluid' id='review_bkgd'>
         <div className='row align-items-center justify-content-center'>
           <div className='col text-start' id='svg_lf'>
-            <img id='svg_lf' src={svg6} />
+            <img id='svg_lf' src={svg6} alt='' />
           </div>
           <div className='col-4 text-center'>
-            <img id='customer' src={CustomerPic} />
+            <img id='customer' src={CustomerPic} alt='' />
           </div>
           <div className='col-5' id='review_text'>
             <p id='review_p'>
@@ -26,12 +26,12 @@ function Testimonial() {
             <div id='customer_details'>Jim Smith, customer since 1997</div>
           </div>
           <div className='col text-end' id='svg_ri'>
-            <img id='svg_ri' src={svg7} />
+            <img id='svg_ri' src={svg7} alt='' />
           </div>
         </div>
       </div>
 
-      <img className='review_banner' src={BannerPic} />
+      <img className='review_banner' src={BannerPic} alt='' />
     </div>
   );
 }

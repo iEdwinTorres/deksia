@@ -6,7 +6,7 @@ function Style2() {
       <div className='container-fluid' id='style2_container'>
         <div className='row justify-content-center'>
           <div className='col-6' id='family_col'>
-            <img className='family' src={FamilyImage} />
+            <img className='family' src={FamilyImage} alt='' />
           </div>
           <div className='col-6' id='right_col'>
             <h2 id='style2_heading'>

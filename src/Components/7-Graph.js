@@ -6,7 +6,9 @@ function Graph() {
       <div className='row justify-content-center' id='rates_top'>
         <div className='col-6' id='text_left'>
           <h1 id='rate_heading'>
-            Fixed Rate vs Variable <br/>Rate Gas Prices What<br/> to know
+            Fixed Rate vs Variable <br />
+            Rate Gas Prices What
+            <br /> to know
           </h1>
         </div>
         <div className='col-6' id='text_right'>
@@ -47,7 +49,7 @@ function Graph() {
       </div>
       <div className='row'>
         <div className='col text-center'>
-          <img id='graph' src={GraphImg} />
+          <img id='graph' src={GraphImg} alt='' />
         </div>
       </div>
     </div>

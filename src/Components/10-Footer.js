@@ -2,7 +2,7 @@ import LogoImage from "../Assets/logo-large.png";
 function Footer() {
   return (
     <div className='Footer'>
-      <img src={LogoImage} />
+      <img src={LogoImage} alt=''/>
       <div>© 2020 NOVEC | All Rights Reserved</div>
       <div>
         <a>Privacy & Legal Statement </a>|
