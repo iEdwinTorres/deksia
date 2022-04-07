@@ -16,7 +16,9 @@ function Hero() {
             </h1>
           </div>
           <div className='row'>
-            <h3 className='col-4' id='hero_h3'>Super neat subhead</h3>
+            <h3 className='col-4' id='hero_h3'>
+              Super neat subhead
+            </h3>
           </div>
           <div className='row'>
             <p className='col-5' id='hero_p'>
@@ -32,41 +34,43 @@ function Hero() {
       </div>
 
       <div className='container-fluid options'>
-        <div className='row justify-content-center'>
-          <div className='col'>
-            <div className='row'>
-              <img className='col' id='svg' src={svg1}  alt=''/>
-              <div className='col-9' id='opt_text'>
-                Billing
-                <br />& Payment
+        <div className='container'>
+          <div className='row justify-content-center'>
+            <div className='col'>
+              <div className='row'>
+                <img className='col' id='svg' src={svg1} alt='' />
+                <div className='col-9' id='opt_text'>
+                  Billing
+                  <br />& Payment
+                </div>
               </div>
             </div>
-          </div>
-          <div className='col'>
-            <div className='row'>
-              <img className='col' id='svg' src={svg2}  alt=''/>
-              <div className='col-9' id='opt_text'>
-                Report
-                <br />a problem
+            <div className='col'>
+              <div className='row'>
+                <img className='col' id='svg' src={svg2} alt='' />
+                <div className='col-9' id='opt_text'>
+                  Report
+                  <br />a problem
+                </div>
               </div>
             </div>
-          </div>
-          <div className='col'>
-            <div className='row'>
-              <img className='col' id='svg' src={svg3}  alt=''/>
-              <div className='col-9' id='opt_text'>
-                Moving or
-                <br />
-                canceling service
+            <div className='col'>
+              <div className='row'>
+                <img className='col' id='svg' src={svg3} alt='' />
+                <div className='col-9' id='opt_text'>
+                  Moving or
+                  <br />
+                  canceling service
+                </div>
               </div>
             </div>
-          </div>
-          <div className='col'>
-            <div className='row'>
-              <img className='col' id='svg' src={svg4}  alt=''/>
-              <div className='col-9' id='opt_text'>
-                Switching Service
-                <br /> Providers
+            <div className='col'>
+              <div className='row'>
+                <img className='col' id='svg' src={svg4} alt='' />
+                <div className='col-9' id='opt_text'>
+                  Switching Service
+                  <br /> Providers
+                </div>
               </div>
             </div>
           </div>

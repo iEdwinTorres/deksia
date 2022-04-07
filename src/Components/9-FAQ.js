@@ -26,7 +26,7 @@ function FQA() {
               <h3 id='faq_h3'>What gas company services my address?</h3>
             </div>
             <div className='col' id='faq_right_top_row'>
-              <img src={svg8} alt='' />
+              <img id='faq_svg' src={svg8} alt='' />
             </div>
           </div>
           <div className='row' id='faq_right_rows'>
@@ -34,7 +34,7 @@ function FQA() {
               <h3 id='faq_h3'>Can I switch natural gas providers?</h3>
             </div>
             <div className='col' id='faq_right_middle_row'>
-              <img src={svg8} alt='' />
+              <img id='faq_svg' src={svg8} alt='' />
             </div>
           </div>
           <div className='row align-items-' id='faq_right_rows'>
@@ -58,7 +58,7 @@ function FQA() {
               </div>
             </div>
             <div className='col' id='faq_right_bottom_row'>
-              <img src={svg9} alt='' />
+              <img id='faq_svg' src={svg9} alt='' />
             </div>
           </div>
         </div>

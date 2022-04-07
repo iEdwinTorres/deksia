@@ -33,6 +33,7 @@
   font-kerning: none;
 }
 
+
 #navbar{
   font-family: proxima-nova, sans-serif;
   font-weight: 600;
@@ -119,7 +120,6 @@
   font-style: normal;
   text-transform: uppercase;
   font-size: 1.4vw;
-  line-height: 1.1;
   color: #1654A8;
   height: 7vw;
   padding-top: 2vw;
@@ -657,6 +657,10 @@ padding-right: 4.5%;
   font-size: 1.23vw;
   padding-bottom: 3%;
   font-kerning: none;
+}
+
+#faq_svg {
+  height: 2.5vw;
 }
 
 #faq_left_rows {
