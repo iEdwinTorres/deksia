@@ -53,7 +53,7 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(90deg, rgb(255,255,255) 25%, rgba(0,0,0,0) 67%), url("./Assets/img-1.png");
+  background: linear-gradient(90deg, #ffffff 25%, #ff000000 67%), url("./Assets/img-1.png");
   background-size: 100vw;
   height: 34.75vw;
 }
@@ -622,5 +622,67 @@ padding-right: 4.5%;
 }
 
 /* FAQ Section */
+
+
+#faq_heading {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 2.5vw;
+  padding-bottom: 3%;
+  font-kerning: none;
+  padding-top: 15%;
+}
+
+#faq_h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-kerning: none;
+}
+
+#faq_p{
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-bottom: 3%;
+  font-kerning: none;
+}
+
+#faq_left_rows {
+  padding-left: 10%;
+}
+
+#faq_right_rows{
+  background: linear-gradient(to bottom, #f0f0f0 55%, #ddd);
+}
+
+#faq_right_top_row {
+  padding-top: 7.5%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+#faq_right_middle_row {
+  padding-top: 5%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+#faq_right_bottom_row {
+  padding-top: 5%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
 
 /* Footer Section */
