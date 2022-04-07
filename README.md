@@ -1,2 +1,17 @@
 # A few things...
 
+This site is best viewed on a 1440p display. If you do not have one, it may be simulated with the Chrome Developer Tools.
+
+This can be activated on macOS with the following shortcut:
+
+Cmd + Shift + C
+
+This can be activated on Windows with the following shortcut:
+
+Ctrl + Shift + C
+
+I attempted to make the site responsive with an unfamiliar framework, Bootstrap 5. There is clearly a lot more that I need to learn about Bootstrap, but I wanted to use an unfamiliar framwork to show that I am capable of obtaining quick knowlege about any given framework and apply that knowlege to a project.
+
+I know my implematation is not perfect. But I hope that you can appeciate the hard work that I put into this assessment.
+
+Thank you for the opportunity!
