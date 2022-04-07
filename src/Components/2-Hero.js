@@ -35,8 +35,8 @@ function Hero() {
 
       <div className='container-fluid options'>
         <div className='container'>
-          <div className='row justify-content-center'>
-            <div className='col'>
+          <div className='row justify-content-center' id='opt_row'>
+            <div className='col-3'>
               <div className='row'>
                 <img className='col' id='svg' src={svg1} alt='' />
                 <div className='col-9' id='opt_text'>
@@ -45,7 +45,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className='col'>
+            <div className='col-3'>
               <div className='row'>
                 <img className='col' id='svg' src={svg2} alt='' />
                 <div className='col-9' id='opt_text'>
@@ -54,7 +54,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className='col'>
+            <div className='col-3'>
               <div className='row'>
                 <img className='col' id='svg' src={svg3} alt='' />
                 <div className='col-9' id='opt_text'>
@@ -64,7 +64,7 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className='col'>
+            <div className='col-3'>
               <div className='row'>
                 <img className='col' id='svg' src={svg4} alt='' />
                 <div className='col-9' id='opt_text'>
