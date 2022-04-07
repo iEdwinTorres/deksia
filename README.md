@@ -13,4 +13,3 @@ I attempted to make the site responsive with an unfamiliar framework. (to me) I 
 I know my implematation is not perfect. But I hope that you can appeciate the hard work that I put into this assessment.
 
 Thank you for the opportunity!
-Edwin Torres
