@@ -667,22 +667,68 @@ padding-right: 4.5%;
   background: linear-gradient(to bottom, #f0f0f0 55%, #ddd);
 }
 
-#faq_right_top_row {
+#faq_middle_top_row {
   padding-top: 7.5%;
   padding-left: 6%;
   padding-bottom: 2%;
 }
 
+#faq_middle_middle_row {
+  padding-top: 7.5%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+#faq_middle_bottom_row {
+  padding-top: 7.5%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+#faq_right_top_row {
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
 #faq_right_middle_row {
-  padding-top: 5%;
+  padding-top: 6%;
   padding-left: 6%;
   padding-bottom: 2%;
 }
 
 #faq_right_bottom_row {
-  padding-top: 5%;
+  padding-top: 6%;
   padding-left: 6%;
   padding-bottom: 2%;
 }
 
 /* Footer Section */
+#footer_logo {
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+#footer_social {
+  padding: 0%;
+  padding-top: 190%;
+}
+
+#footer_text {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.3vw;
+  padding-top: 12%;
+  padding-bottom: 2%;
+  font-kerning: none;
+  color: #1654A8;
+  line-height: 2;
+}
+
+.yellowBar3 {
+  background-color: #FAE613;
+  height: 1.5vw;
+}

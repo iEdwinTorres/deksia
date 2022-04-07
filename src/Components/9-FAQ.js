@@ -5,7 +5,7 @@ function FQA() {
   return (
     <div className='container-fluid'>
       <div className='row'>
-        <div className='col-5'id='faq_left_rows'>
+        <div className='col-5' id='faq_left_rows'>
           <h1 id='faq_heading'>
             Frequently
             <br />
@@ -22,7 +22,7 @@ function FQA() {
         </div>
         <div className='col-7'>
           <div className='row' id='faq_right_rows'>
-            <div className='col-8' id='faq_right_top_row'>
+            <div className='col-8 ' id='faq_middle_top_row'>
               <h3 id='faq_h3'>What gas company services my address?</h3>
             </div>
             <div className='col' id='faq_right_top_row'>
@@ -30,28 +30,30 @@ function FQA() {
             </div>
           </div>
           <div className='row' id='faq_right_rows'>
-            <div className='col-8' id='faq_right_middle_row'>
+            <div className='col-8' id='faq_middle_middle_row'>
               <h3 id='faq_h3'>Can I switch natural gas providers?</h3>
             </div>
             <div className='col' id='faq_right_middle_row'>
               <img src={svg8} alt='' />
             </div>
           </div>
-          <div className='row' id='faq_right_rows'>
-            <div className='col-8' id='faq_right_bottom_row'>
+          <div className='row align-items-' id='faq_right_rows'>
+            <div className='col-8' id='faq_middle_bottom_row'>
               <div className='row'>
                 <h3 id='faq_h3'>How to get natural gas in my neighborhoods?</h3>
               </div>
-              <div className='row'>
-                <p id='faq_p'>
+              <div className='row' id='faq_p'>
+                <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation.
+                  irure dolor.
+                </p>
+                <p >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
                 </p>
               </div>
             </div>
