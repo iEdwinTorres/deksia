@@ -12,7 +12,7 @@ function Graph() {
           </h1>
         </div>
         <div className='col-6' id='text_right'>
-          <body>
+          <p id='rates_p'>
             <strong>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
@@ -20,14 +20,14 @@ function Graph() {
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor.
-          </body>
+          </p>
         </div>
       </div>
       <div className='row justify-content-between' id='rates_bottom'>
         <div className='col-5' id='fixed_rate'>
           <div id='box_left'>
             <h3 id='rates_h3'>Fixed rate</h3>
-            <ul>
+            <ul id='rates_ul'>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
@@ -38,7 +38,7 @@ function Graph() {
         <div className='col-5' id='variable_rate'>
           <div id='box_right'>
             <h3 id='rates_h3'>Variable rate</h3>
-            <ul>
+            <ul id='rates_ul'>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>
               <li>Lorem ipsum dolor sit amet, consectetur</li>

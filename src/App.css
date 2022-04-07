@@ -496,6 +496,26 @@ padding-right: 12%;
   font-kerning: none;
 }
 
+#rates_p{
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-bottom: 3%;
+  font-kerning: none;
+}
+
+#rates_ul {
+  font-family: proxima-nova, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.23vw;
+  padding-bottom: 3%;
+  font-kerning: none;
+}
+
 #rates_top {
 padding: 0%;
 padding-left: 4.5%;
