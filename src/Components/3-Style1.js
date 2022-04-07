@@ -1,9 +1,9 @@
 function Style1() {
   return (
-    <div className='container-fixed' id='style_1'>
+    <div className='container' id='style_1'>
       <div className='row'>
         <div className='col-6' id='col_left'>
-          <h1 id='style1_h1'>H1. Headline 1 styling and spacing</h1>
+          <h1 id='style1_h1'>H1. Headline 1 styling<br/> and spacing</h1>
         </div>
         <div className='col-6' id='style1_Reg'>
           <p id='style1_reg'>

@@ -31,7 +31,7 @@ function Testimonial() {
         </div>
       </div>
 
-      <img className='Testimonial-Banner' src={BannerPic} />
+      <img className='review_banner' src={BannerPic} />
     </div>
   );
 }

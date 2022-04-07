@@ -1,8 +1,3 @@
-.container-fixed {
-  margin: 0 auto;
-  max-width: 2560px;
-}
-
 /* Header Section */
 .yellowBar1 {
   background-color: #FAE613;
@@ -35,6 +30,7 @@
   color: #1654A8;
   text-align: right;
   font-size: 1.55vw;
+  font-kerning: none;
 }
 
 #navbar{
@@ -47,6 +43,7 @@
   color: #B8DFF6;
   height: 2.55vw;
   padding-top: .55vw;
+  font-kerning: none;
 }
 
 #navbar_text {
@@ -73,7 +70,8 @@
   text-transform: uppercase;
   text-align: left;
   color: #1654A8;
-  font-size: 2.5vw
+  font-size: 2.5vw;
+  font-kerning: none;
 }
 
 #hero_h3 {
@@ -83,6 +81,7 @@
   text-transform: uppercase;
   text-align: left;
   font-size: 1.3vw;
+  font-kerning: none;
 }
 
 #hero_p {
@@ -92,6 +91,7 @@
   font-style: normal;
   text-align: left;
   font-size: 1.23vw;
+  font-kerning: none;
 }
 
 #hero_signup {
@@ -109,6 +109,7 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 1.3vw;
+  font-kerning: none;
 }
 
 .options {
@@ -122,6 +123,7 @@
   color: #1654A8;
   height: 7vw;
   padding-top: 2vw;
+  font-kerning: none;
 }
 
 #svg {
@@ -141,7 +143,8 @@
   text-transform: uppercase;
   text-align: left;
   color: #1654A8;
-  font-size: 2.5vw
+  font-size: 2.5vw;
+  font-kerning: none;
 }
 
 #style1_h2 {
@@ -151,7 +154,8 @@
   text-transform: uppercase;
   text-align: left;
   color: #1654A8;
-  font-size: 1.9vw
+  font-size: 1.9vw;
+  font-kerning: none;
 }
 
 #style1_h3 {
@@ -161,6 +165,7 @@
   text-transform: uppercase;
   text-align: left;
   font-size: 1.3vw;
+  font-kerning: none;
 }
 
 #style1_reg {
@@ -169,6 +174,7 @@
   font-style: normal;
   text-align: left;
   font-size: 1.23vw;
+  font-kerning: none;
 }
 
 #style_1 {
@@ -193,6 +199,7 @@
   text-align: left;
   font-size: 1.23vw;
   color: #1654A8;
+  font-kerning: none;
 }
 
 #style1_ul {
@@ -201,6 +208,7 @@
   font-style: normal;
   text-align: left;
   font-size: 1.23vw;
+  font-kerning: none;
 }
 
 /* Benefits Section */
@@ -219,6 +227,7 @@
   color: #1654A8;
   font-size: 2.5vw;
   padding-top: 5%;
+  font-kerning: none;
 }
 
 #benefits_12 {
@@ -262,6 +271,7 @@
   font-size: 1.3vw;
   color: #1654A8;
   padding-top: 7%;
+  font-kerning: none;
 }
 
 #benefit_text {
@@ -271,6 +281,7 @@
   text-align: left;
   font-size: 1.23vw;
   padding-right: 10%;
+  font-kerning: none;
 }
 
 #benefits_banner {
@@ -289,6 +300,7 @@
   font-size: 2.5vw;
   padding-top: 5%;
   padding-bottom: 3%;
+  font-kerning: none;
 }
 
 #services_container {
@@ -306,6 +318,7 @@ padding-right: 7%;
   font-style: normal;
   text-align: left;
   font-size: 1.23vw;
+  font-kerning: none;
 }
 
 #services_h3 {
@@ -317,6 +330,7 @@ padding-right: 7%;
   font-size: 1.3vw;
   padding-top: 6%;
   padding-bottom: 2%;
+  font-kerning: none;
 }
 
 #service_btn {
@@ -354,6 +368,7 @@ padding-right: 7%;
   text-transform: uppercase;
   padding: 0%;
   font-size: 1.23vw;
+  font-kerning: none;
 }
 
 #cta_btn {
@@ -410,6 +425,7 @@ padding-right: 12%;
   color: #1654A8;
   font-size: 1.9vw;
   padding-bottom: 3%;
+  font-kerning: none;
 }
 
 #style2_reg {
@@ -419,6 +435,7 @@ padding-right: 12%;
   text-align: left;
   font-size: 1.23vw;
   padding-bottom: 3%;
+  font-kerning: none;
 }
 
 #style2_ul {
@@ -428,6 +445,7 @@ padding-right: 12%;
   text-align: left;
   font-size: 1.23vw;
   padding-bottom: 3%;
+  font-kerning: none;
 }
 
 #style2_signup {
@@ -449,6 +467,87 @@ padding-right: 12%;
 }
 
 /* Rates Section */
+#rates_container {
+  padding-top: 5%;
+}
+
+#rate_heading {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  color: #1654A8;
+  font-size: 2.5vw;
+  padding-bottom: 3%;
+  font-kerning: none;
+}
+
+#rates_h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.3vw;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  color: #1654A8;
+  font-kerning: none;
+}
+
+#rates_top {
+padding: 0%;
+padding-left: 4.5%;
+padding-right: 4.5%;
+}
+
+#text_left {
+  padding: 0%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+
+#text_right {
+  padding: 0%;
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+#rates_bottom {
+  padding: 0%;
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+}
+
+#fixed_rate{
+  background-color: #B8DFF6;
+  border-radius: 8px;
+  margin-left: 4%;
+}
+
+#box_left{
+  padding: 0%;
+  padding-left: 10%;
+}
+
+#variable_rate{
+  background-color: #B8DFF6;
+  border-radius: 8px;
+  margin-right: 4%;
+}  
+
+#box_right{
+  padding: 0%;
+  padding-left: 10%;
+  padding-bottom: 4%;
+}
+
+#graph {
+  width: 60%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 /* Testimonial Section */
 #review_bkgd{
@@ -460,6 +559,7 @@ padding-right: 12%;
   padding-left: 5%;
   height: 7vw;
 }
+
 #svg_ri{
   padding: 0%;
   padding-right: 5%;
@@ -483,6 +583,7 @@ padding-right: 12%;
   font-size: 1.9vw;
   color: #1654A8;
   padding-top: 10%;
+  font-kerning: none;
 }
 
 #customer_details {
@@ -493,9 +594,10 @@ padding-right: 12%;
   text-align: left;
   font-size: 1.3vw;
   padding-bottom: 10%;
+  font-kerning: none;
 }
 
-.Testimonial-Banner {
+.review_banner {
   width: 100%;
 }
 
